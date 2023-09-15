@@ -2,7 +2,7 @@
 This mod is an addition of several different Industries to the game adding depth and choice in ways I found enjoyable. It also adds an AI to the game that will build the base games buildings, this mods buildings and Industrial.Evolution's if it is installed. This mod has no hard dependencies, but I strongly recommend Grand.Colonies if you are playing with Nexerelin and can capture very full markets.
 
 ## Install
-- Clone this repository or download a release zip and copy into the mod's directory of your starsector 0.95a's mod folder
+- Clone this repository or download a release zip and copy into the mod's directory of your starsector 0.96's mod folder
 - (Optional) Open the data/config/settings.json and configure it how you like. I included settings.json.optional to show you what I use.
 
 ## Summary of Industries Added
