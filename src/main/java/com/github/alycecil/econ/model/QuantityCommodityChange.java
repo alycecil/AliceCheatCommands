@@ -1,11 +1,9 @@
 package com.github.alycecil.econ.model;
 
-import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MutableCommodityQuantity;
 import com.fs.starfarer.api.combat.MutableStat;
 import com.github.alycecil.econ.model.aicore.AICoreEffect;
-import com.github.alycecil.econ.model.aicore.StandardAICoreDemandEffect;
 
 public abstract class QuantityCommodityChange implements IndustryEffect, HasCommodity {
     protected String commodityId;

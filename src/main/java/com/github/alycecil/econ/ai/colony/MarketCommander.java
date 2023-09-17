@@ -22,7 +22,26 @@ import java.util.List;
 import java.util.Random;
 
 import static com.fs.starfarer.api.impl.campaign.econ.impl.Farming.AQUA_PLANETS;
-import static com.github.alycecil.econ.util.AliceIndustries.*;
+import static com.github.alycecil.econ.util.AliceIndustries.AquacultureExtensions;
+import static com.github.alycecil.econ.util.AliceIndustries.AuthoritarianRegime;
+import static com.github.alycecil.econ.util.AliceIndustries.AutomatedFarming;
+import static com.github.alycecil.econ.util.AliceIndustries.BulkFuelProduction;
+import static com.github.alycecil.econ.util.AliceIndustries.ChopShop;
+import static com.github.alycecil.econ.util.AliceIndustries.CivilianInfrastructureCommon;
+import static com.github.alycecil.econ.util.AliceIndustries.CivilianInfrastructureLuxury;
+import static com.github.alycecil.econ.util.AliceIndustries.EmergencyDefenseForce;
+import static com.github.alycecil.econ.util.AliceIndustries.FarmingSimple;
+import static com.github.alycecil.econ.util.AliceIndustries.GatesCustomsNavy;
+import static com.github.alycecil.econ.util.AliceIndustries.IndustrialDefenseForce;
+import static com.github.alycecil.econ.util.AliceIndustries.IndustrialFarming;
+import static com.github.alycecil.econ.util.AliceIndustries.PoliceState;
+import static com.github.alycecil.econ.util.AliceIndustries.PopulationWealthy;
+import static com.github.alycecil.econ.util.AliceIndustries.RuralFarmCoOp;
+import static com.github.alycecil.econ.util.AliceIndustries.SelfDefenseForce;
+import static com.github.alycecil.econ.util.AliceIndustries.SpaceElevator;
+import static com.github.alycecil.econ.util.AliceIndustries.StateFarms;
+import static com.github.alycecil.econ.util.AliceIndustries.TraceMining;
+import static com.github.alycecil.econ.util.AliceIndustries.TransportationInfrastructure;
 
 public class MarketCommander implements EconomyTickListener {
 

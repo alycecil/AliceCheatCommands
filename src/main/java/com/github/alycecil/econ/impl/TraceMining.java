@@ -9,7 +9,6 @@ import com.github.alycecil.econ.impl.common.HasEffectiveness;
 import com.github.alycecil.econ.impl.common.PollutingIndustry;
 import com.github.alycecil.econ.model.FlatCommodityBonus;
 import com.github.alycecil.econ.model.FlatCommodityDemand;
-import com.github.alycecil.econ.model.PopulationCommodityDemand;
 
 public class TraceMining extends PollutingIndustry implements HasEffectiveness {
 

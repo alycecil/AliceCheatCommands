@@ -9,7 +9,6 @@ import com.github.alycecil.econ.impl.common.PopulationAwareExtension;
 import com.github.alycecil.econ.model.FlatCommodityBonus;
 import com.github.alycecil.econ.model.FlatCommodityDemand;
 import com.github.alycecil.econ.model.PopulationCommodityBonus;
-import com.github.alycecil.econ.model.PopulationCommodityDemand;
 import com.github.alycecil.econ.util.AliceCommon;
 
 public class AquacultureExtension extends PopulationAwareExtension {

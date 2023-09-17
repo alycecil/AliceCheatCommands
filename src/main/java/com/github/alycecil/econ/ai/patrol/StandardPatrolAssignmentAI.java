@@ -1,18 +1,8 @@
 package com.github.alycecil.econ.ai.patrol;
 
-import com.fs.starfarer.api.campaign.*;
-import com.fs.starfarer.api.campaign.ai.FleetAssignmentDataAPI;
-import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase;
-import com.fs.starfarer.api.impl.campaign.fleets.FleetFactory;
+import com.fs.starfarer.api.campaign.CampaignFleetAPI;
+import com.fs.starfarer.api.campaign.FleetActionTextProvider;
 import com.fs.starfarer.api.impl.campaign.fleets.RouteManager;
-import com.fs.starfarer.api.impl.campaign.ids.MemFlags;
-import com.fs.starfarer.api.impl.campaign.ids.Tags;
-import com.fs.starfarer.api.util.CountingMap;
-import com.fs.starfarer.api.util.Misc;
-import com.fs.starfarer.api.util.WeightedRandomPicker;
-
-import java.util.List;
 
 import static com.github.alycecil.econ.impl.IndustrialDefenseForce.INDUSTRIAL_DEFENSE_FORCE;
 

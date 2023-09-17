@@ -4,8 +4,6 @@ import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MutableCommodityQuantity;
 import com.fs.starfarer.api.combat.MutableStat;
 import com.github.alycecil.econ.model.aicore.AICoreEffect;
-import com.github.alycecil.econ.model.aicore.StandardAICoreBonusEffect;
-import com.github.alycecil.econ.model.aicore.StandardAICoreDemandEffect;
 
 public abstract class QuantityCommodityBonus extends QuantityCommodityChange implements IndustryBonus {
 
