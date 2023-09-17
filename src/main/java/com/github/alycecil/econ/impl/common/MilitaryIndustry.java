@@ -36,6 +36,13 @@ public abstract class MilitaryIndustry extends SupportInfraGrowsPopulation imple
     protected float returningPatrolValue = 0f;
 
     @Override
+    public void apply() {
+        super.apply();
+
+        applyAICoreModifiers();
+    }
+
+    @Override
     protected int getGrowthRate() {
         return 1;
     }

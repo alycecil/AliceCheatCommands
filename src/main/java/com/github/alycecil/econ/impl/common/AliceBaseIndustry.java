@@ -45,6 +45,7 @@ public abstract class AliceBaseIndustry extends BaseIndustry {
 
     @Override
     public void unapply() {
+        applyNoAICoreModifiers();
         super.unapply();
 
         for (IndustryEffect bonus : bonuses) {
@@ -124,12 +125,16 @@ public abstract class AliceBaseIndustry extends BaseIndustry {
 
     @Override
     public void addAICoreSection(TooltipMakerAPI tooltip, String coreId, AICoreDescriptionMode mode) {
-        boolean omega = aiCoreId!=null && aiCoreId.equals(Commodities.OMEGA_CORE);
-        if(omega){
+        boolean omega = isOmega(coreId);
+        if (omega) {
             addOmegaCoreDescription(coreId, tooltip, mode);
-        }else{
+        } else {
             super.addAICoreSection(tooltip, coreId, mode);
         }
+    }
+
+    protected boolean isOmega(String coreId) {
+        return coreId !=null && coreId.equals(Commodities.OMEGA_CORE);
     }
 
     protected void addOmegaCoreDescription(String coreId, TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
