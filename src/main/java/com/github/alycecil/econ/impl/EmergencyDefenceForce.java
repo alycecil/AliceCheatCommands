@@ -7,7 +7,6 @@ import com.fs.starfarer.api.impl.campaign.ids.Commodities;
 import com.github.alycecil.econ.ai.patrol.EDFPatrolAssignmentAI;
 import com.github.alycecil.econ.impl.common.MilitaryIndustry;
 import com.github.alycecil.econ.model.FlatCommodityDemand;
-import com.github.alycecil.econ.model.PopulationCommodityDemand;
 
 public class EmergencyDefenceForce extends MilitaryIndustry {
 

@@ -34,7 +34,7 @@ public class JumpDefense extends MilitaryIndustry {
 
     @Override
     protected int getMedium() {
-        return market.getSize() > 5 ? 0 : 1;
+        return market.getSize() > 5 ? 1 : 2;
     }
 
     @Override

@@ -34,12 +34,12 @@ public class IndustrialDefenseForce extends MilitaryIndustry {
 
     @Override
     protected int getMedium() {
-        return market.getSize() > 5 ? 1 : 0;
+        return market.getSize() > 5 ? Math.max(1, market.getSize() / 2) : 1;
     }
 
     @Override
     protected int getLight() {
-        return Math.max(1, market.getSize() / 2);
+        return market.getSize() > 5 ? 1 : Math.max(1, market.getSize() / 2);
     }
 
     @Override
