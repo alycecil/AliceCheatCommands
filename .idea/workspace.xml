@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73c3e54b-7c7c-4cc8-ba48-7b4829dbf547" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alyce.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/AICoreEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/StandardAICoreBonusEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/StandardAICoreDemandEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/config/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/config/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/config/settings.json.optional" beforeDir="false" afterPath="$PROJECT_DIR$/data/config/settings.json.optional" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/autowires/OnLoadDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/autowires/OnLoadDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/PopulationAwareExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/PopulationAwareExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/StarSectorIndustry.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/AliceBaseIndustry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/AliceBaseIndustry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/MilitaryIndustry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/MilitaryIndustry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/ConditionalFlatCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/ConditionalFlatCommodityBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityDemand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityDemand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityDemand.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +58,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="protected" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.20229885" />
+    <property name="project.structure.side.proportion" value="0.23908296" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -61,26 +72,27 @@
       <recent name="com.github.alycecil.econ" />
       <recent name="com.github.alycecil.econ.model" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.alycecil.econ.model" />
+      <recent name="com.github.alycecil.econ.util" />
+      <recent name="com.github.alycecil.econ.ai.colony" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="AliceCommon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.alycecil.econ.model.aicore" />
+      <recent name="com.github.alycecil.econ.model" />
+      <recent name="com.github.alycecil.econ.ai.patrol" />
+      <recent name="com.github.alycecil.econ.impl" />
+      <recent name="com.github.alycecil.econ.ai" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\data\config" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\src\main\java\com\github\alycecil\econ\util" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\graphics\icons\industry" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\data\campaign" />
-    </key>
-    <key name="MoveMembersDialog.RECENTS_KEY">
-      <recent name="AliceCommon" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.github.alycecil.econ.model" />
-      <recent name="com.github.alycecil.econ.ai.patrol" />
-      <recent name="com.github.alycecil.econ.impl" />
-      <recent name="com.github.alycecil.econ.ai" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.github.alycecil.econ.util" />
-      <recent name="com.github.alycecil.econ.ai.colony" />
-      <recent name="com.github.alycecil.econ.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,6 +123,10 @@
       <workItem from="1631344076283" duration="18946000" />
       <workItem from="1631558363939" duration="724000" />
       <workItem from="1631567096554" duration="14028000" />
+      <workItem from="1674603293597" duration="662000" />
+      <workItem from="1694816371776" duration="3012000" />
+      <workItem from="1694901374347" duration="259000" />
+      <workItem from="1694979973286" duration="9660000" />
     </task>
     <task id="LOCAL-00001" summary="A decent spot">
       <created>1631230676723</created>
@@ -315,7 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631576787995</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Rebuild for 96">
+      <created>1694816628424</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694816628425</updated>
+    </task>
+    <task id="LOCAL-00031" summary="space elevator to not grow so high cost">
+      <created>1694985831667</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1694985831667</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,8 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Fleet Creators, cleanup and art" />
-    <MESSAGE value="Use Produced" />
     <MESSAGE value="Define whos the market owner" />
     <MESSAGE value="AI Builds the Things in demi-random order" />
     <MESSAGE value="That method is implemented poorly, trim" />
@@ -360,7 +388,9 @@
     <MESSAGE value="AI now has more stops" />
     <MESSAGE value="Reorder" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Rebuild for 96" />
+    <MESSAGE value="space elevator to not grow so high cost" />
+    <option name="LAST_COMMIT_MESSAGE" value="space elevator to not grow so high cost" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
