@@ -5,6 +5,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.BattleAPI;
 import com.fs.starfarer.api.campaign.CampaignEventListener;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
+import com.fs.starfarer.api.campaign.econ.CommoditySpecAPI;
 import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.listeners.FleetEventListener;
 import com.fs.starfarer.api.campaign.rules.MemoryAPI;
@@ -14,6 +15,7 @@ import com.fs.starfarer.api.impl.campaign.fleets.FleetFactory;
 import com.fs.starfarer.api.impl.campaign.fleets.RouteManager;
 import com.fs.starfarer.api.impl.campaign.ids.MemFlags;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.impl.campaign.ids.Strings;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
@@ -291,5 +293,68 @@ public abstract class MilitaryIndustry extends SupportInfraGrowsPopulation imple
 
         final String note = "Note that these ships fall under the Chain of Command of the existing military structure, utilizes shared Command, Control and Communication and integrates logistics and support fleets. As such they may be ordered for primary and related ops.";
         tooltip.addPara(note, Color.darkGray, 10f);
+    }
+
+    public static float ALPHA_CORE_BONUS = 0.25f;
+    public static float OMEGA_CORE_BONUS = ALPHA_CORE_BONUS+ALPHA_CORE_BONUS;
+    @Override
+    protected void applyAlphaCoreModifiers() {
+        market.getStats().getDynamic().getMod(Stats.COMBAT_FLEET_SIZE_MULT).modifyMult(
+                getModId(), 1f + ALPHA_CORE_BONUS, "Alpha core (" + getNameForModifier() + ")");
+    }
+
+    @Override
+    protected void applyOmegaCoreModifiers() {
+        market.getStats().getDynamic().getMod(Stats.COMBAT_FLEET_SIZE_MULT).modifyMult(
+                getModId(), 1f + OMEGA_CORE_BONUS, "Omega core (" + getNameForModifier() + ")");
+    }
+
+    @Override
+    protected void applyNoAICoreModifiers() {
+        market.getStats().getDynamic().getMod(Stats.COMBAT_FLEET_SIZE_MULT).unmodifyMult(getModId());
+    }
+
+    @Override
+    protected void addAlphaCoreDescription(TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
+        getCoreDescription(tooltip, mode, ALPHA_CORE_BONUS, DEMAND_REDUCTION, "Alpha");
+    }
+
+    @Override
+    protected void addOmegaCoreDescription(String coreId, TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
+        getCoreDescription(tooltip, mode, OMEGA_CORE_BONUS, 2, "Omega");
+    }
+
+    private void getCoreDescription(
+            TooltipMakerAPI tooltip,
+            AICoreDescriptionMode mode,
+            float coreBonus, int demandReduction, final String coreLevel
+    ) {
+        float opad = 10f;
+        Color highlight = Misc.getHighlightColor();
+
+        String pre = coreLevel + "-level AI core currently assigned. ";
+        if (mode == AICoreDescriptionMode.MANAGE_CORE_DIALOG_LIST || mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
+            pre = coreLevel + "-level AI core. ";
+        }
+        float a = coreBonus;
+        //String str = "" + (int)Math.round(a * 100f) + "%";
+        String str = Strings.X + (1f + a);
+
+        if (mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
+            CommoditySpecAPI coreSpec = Global
+                    .getSettings().getCommoditySpec(aiCoreId);
+            TooltipMakerAPI text = tooltip.beginImageWithText(coreSpec.getIconName(), 48);
+            text.addPara(pre + "Reduces upkeep cost by %s. Reduces demand by %s unit. " +
+                            "Increases fleet size by %s.", 0f, highlight,
+                    "" + (int)((1f - UPKEEP_MULT) * 100f) + "%", "" + demandReduction,
+                    str);
+            tooltip.addImageWithText(opad);
+            return;
+        }
+
+        tooltip.addPara(pre + "Reduces upkeep cost by %s. Reduces demand by %s unit. " +
+                        "Increases fleet size by %s.", opad, highlight,
+                "" + (int)((1f - UPKEEP_MULT) * 100f) + "%", "" + demandReduction,
+                str);
     }
 }

@@ -9,5 +9,9 @@
   "alice_market_census": false,
 
   # Not yet implemented
-  "alice_marketcommander_costs": true
+  "alice_marketcommander_costs": true,
+
+  # What I use
+  "maxIndustries":[1,2,3,4,5,6,7,8,12,16],
+  "maxColonySize":9
 }

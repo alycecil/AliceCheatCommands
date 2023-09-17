@@ -1,13 +1,17 @@
 package com.github.alycecil.econ.impl.common;
 
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.campaign.econ.CommoditySpecAPI;
 import com.fs.starfarer.api.campaign.econ.MarketImmigrationModifier;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
+import com.fs.starfarer.api.impl.campaign.ids.Commodities;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.Pair;
 import com.github.alycecil.econ.model.IndustryDemand;
 import com.github.alycecil.econ.model.IndustryEffect;
 
+import java.awt.*;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -96,4 +100,59 @@ public abstract class AliceBaseIndustry extends BaseIndustry {
     protected abstract void applyForIndustry(float effectiveness);
 
     protected abstract void unapplyForIndustry();
+
+    @Override
+    protected void applyAICoreModifiers() {
+        if (aiCoreId == null) {
+            applyNoAICoreModifiers();
+            return;
+        }
+        if (aiCoreId.equals(Commodities.ALPHA_CORE)) {
+            applyAlphaCoreModifiers();
+        } else if (aiCoreId.equals(Commodities.BETA_CORE)) {
+            applyBetaCoreModifiers();
+        } else if (aiCoreId.equals(Commodities.GAMMA_CORE)) {
+            applyGammaCoreModifiers();
+        } else if (aiCoreId.equals(Commodities.OMEGA_CORE)) {
+            applyOmegaCoreModifiers();
+        }
+    }
+
+    protected void applyOmegaCoreModifiers() {
+        super.applyAlphaCoreModifiers();
+    }
+
+    @Override
+    public void addAICoreSection(TooltipMakerAPI tooltip, String coreId, AICoreDescriptionMode mode) {
+        boolean omega = aiCoreId!=null && aiCoreId.equals(Commodities.OMEGA_CORE);
+        if(omega){
+            addOmegaCoreDescription(coreId, tooltip, mode);
+        }else{
+            super.addAICoreSection(tooltip, coreId, mode);
+        }
+    }
+
+    protected void addOmegaCoreDescription(String coreId, TooltipMakerAPI tooltip, AICoreDescriptionMode mode) {
+        float opad = 10f;
+        Color highlight = Misc.getHighlightColor();
+
+        String pre = "Omega-level AI core currently assigned. ";
+        if (mode == AICoreDescriptionMode.MANAGE_CORE_DIALOG_LIST || mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP) {
+            pre = "Omega-level AI core. ";
+        }
+        if (mode == AICoreDescriptionMode.INDUSTRY_TOOLTIP || mode == AICoreDescriptionMode.MANAGE_CORE_TOOLTIP) {
+            CommoditySpecAPI coreSpec = Global
+                    .getSettings().getCommoditySpec(aiCoreId);
+            TooltipMakerAPI text = tooltip.beginImageWithText(coreSpec.getIconName(), 48);
+            text.addPara(pre + "Reduces upkeep cost by %s. Reduces demand by upto 2 unit. " +
+                            "Increases production by 2 unit.", 0f, highlight,
+                    "" + (int)((1f - UPKEEP_MULT) * 100f) + "%");
+            tooltip.addImageWithText(opad);
+            return;
+        }
+
+        tooltip.addPara(pre + "Reduces upkeep cost by %s. Reduces demand by upto 2 unit. " +
+                        "Increases production by 2 unit.", opad, highlight,
+                "" + (int)((1f - UPKEEP_MULT) * 100f) + "%");
+    }
 }

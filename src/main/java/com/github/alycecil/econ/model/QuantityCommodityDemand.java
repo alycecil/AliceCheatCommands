@@ -3,12 +3,12 @@ package com.github.alycecil.econ.model;
 import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MutableCommodityQuantity;
 import com.fs.starfarer.api.combat.MutableStat;
+import com.github.alycecil.econ.model.aicore.AICoreEffect;
 
 public abstract class QuantityCommodityDemand extends QuantityCommodityChange implements IndustryDemand {
 
-
-    public QuantityCommodityDemand(String commodityId, String desc) {
-        super(commodityId, desc);
+    public QuantityCommodityDemand(String commodityId, String desc, AICoreEffect aiCoreEffect) {
+        super(commodityId, desc, aiCoreEffect);
     }
 
     @Override
