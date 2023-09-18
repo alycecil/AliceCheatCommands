@@ -13,16 +13,6 @@ public abstract class PopulationAwareExtension extends IndustryExtension impleme
     }
 
     @Override
-    public void apply() {
-        super.apply();
-    }
-
-    @Override
-    public void unapply() {
-        super.unapply();
-    }
-
-    @Override
     protected void addPostSupplySection(TooltipMakerAPI tooltip, boolean hasSupply, IndustryTooltipMode mode) {
         super.addPostSupplySection(tooltip, hasSupply, mode);
 

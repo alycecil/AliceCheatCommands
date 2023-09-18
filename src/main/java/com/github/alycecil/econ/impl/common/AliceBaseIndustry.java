@@ -33,9 +33,8 @@ public abstract class AliceBaseIndustry extends BaseIndustry {
 
             applyForIndustry(effectiveness);
 
-
             for (IndustryEffect bonus : bonuses) {
-                bonus.apply(this, getModId(), effectiveness);
+                bonus.apply(this, this, getPrimaryModId(bonus), effectiveness);
             }
         }
         if (this instanceof MarketImmigrationModifier) {
@@ -49,12 +48,14 @@ public abstract class AliceBaseIndustry extends BaseIndustry {
         super.unapply();
 
         for (IndustryEffect bonus : bonuses) {
-            bonus.unapply(this, getModId());
+            bonus.unapply(this, getPrimaryModId(bonus));
         }
 
         unapplyForIndustry();
+    }
 
-
+    protected String getPrimaryModId(IndustryEffect bonus) {
+        return getModId()+"_p_"+bonus.getId();
     }
 
     public List<String> getDemanded() {
@@ -107,8 +108,7 @@ public abstract class AliceBaseIndustry extends BaseIndustry {
         if (aiCoreId == null) {
             applyNoAICoreModifiers();
             return;
-        }
-        if (aiCoreId.equals(Commodities.ALPHA_CORE)) {
+        } else if (aiCoreId.equals(Commodities.ALPHA_CORE)) {
             applyAlphaCoreModifiers();
         } else if (aiCoreId.equals(Commodities.BETA_CORE)) {
             applyBetaCoreModifiers();

@@ -6,10 +6,20 @@ import com.github.alycecil.econ.model.IndustryEffect;
 public abstract class FarmingExtension extends PopulationAwareExtension {
 
     public static final String FARMING = "Farming";
-    public static final String DESC = "Farming improvements";
+    public static final String DESC = " (Farming improvements)";
 
     public FarmingExtension(IndustryEffect... bonuses) {
         super(bonuses);
+    }
+
+    @Override
+    public void apply() {
+        if(bonuses!=null){
+            for (IndustryEffect bonus : bonuses) {
+                bonus.setDesc(getCurrentName()+DESC);
+            }
+        }
+        super.apply();
     }
 
     @Override

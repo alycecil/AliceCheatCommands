@@ -1,5 +1,6 @@
 package com.github.alycecil.econ.impl.common;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.econ.Industry;
 import com.github.alycecil.econ.model.IndustryEffect;
 
@@ -17,9 +18,16 @@ public abstract class IndustryExtension extends AliceBaseIndustry {
 
             if (industry != null) {
                 for (IndustryEffect bonus : bonuses) {
-                    bonus.apply(industry, getModId(), effectiveness);
+                    String modId = getExtendedModId(bonus);
+//                    Global.getLogger(this.getClass()).info("Adding Bonus ["+bonus+"] to Industry ["+industryId+"]@market ["+this.getMarket().getName()+"] as modId["+modId+"]");
+                    bonus.apply(this, industry, modId, effectiveness);
                 }
             }
+//            else{
+//                Global.getLogger(this.getClass()).info("Missing Industry ["+industryId+"]");
+//            }
+        }else{
+            Global.getLogger(this.getClass()).warn("Did not define industryId");
         }
     }
 
@@ -30,10 +38,15 @@ public abstract class IndustryExtension extends AliceBaseIndustry {
             Industry industry = market.getIndustry(industryId);
             if (industry != null) {
                 for (IndustryEffect bonus : bonuses) {
-                    bonus.unapply(industry, getModId());
+                    String modId = getExtendedModId(bonus);
+                    bonus.unapply(industry, modId);
                 }
             }
         }
+    }
+
+    private String getExtendedModId(IndustryEffect bonus) {
+        return getModId()+"_x_"+bonus.getId();
     }
 
     @Override
