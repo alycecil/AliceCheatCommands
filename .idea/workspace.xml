@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73c3e54b-7c7c-4cc8-ba48-7b4829dbf547" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/AICoreEffect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/StandardAICoreBonusEffect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/StandardAICoreDemandEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/strings/descriptions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/icons/cargo/common_lobster.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/config/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/config/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/StarSectorIndustry.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/AliceBaseIndustry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/AliceBaseIndustry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/MilitaryIndustry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/MilitaryIndustry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/ConditionalFlatCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/ConditionalFlatCommodityBonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityBonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityDemand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityBonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityDemand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityBonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityDemand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/commodities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/campaign/commodities.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/StarSectorIndustry.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jars/StarSectorIndustry.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/FlatFarmingExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/FlatFarmingExtension.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="protected" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/strings" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -88,11 +77,11 @@
       <recent name="com.github.alycecil.econ.ai" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\StarSectorIndustry\data\strings" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\StarSectorIndustry\graphics\icons\cargo" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\data\config" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\src\main\java\com\github\alycecil\econ\util" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\graphics\icons\industry" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\data\campaign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -126,7 +115,7 @@
       <workItem from="1674603293597" duration="662000" />
       <workItem from="1694816371776" duration="3012000" />
       <workItem from="1694901374347" duration="259000" />
-      <workItem from="1694979973286" duration="9660000" />
+      <workItem from="1694979973286" duration="22037000" />
     </task>
     <task id="LOCAL-00001" summary="A decent spot">
       <created>1631230676723</created>
@@ -345,7 +334,42 @@
       <option name="project" value="LOCAL" />
       <updated>1694985831667</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add AI Core Effects">
+      <created>1694990453060</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1694990453060</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Defense Forces are better">
+      <created>1694991765638</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1694991765638</updated>
+    </task>
+    <task id="LOCAL-00034" summary="remove unused imports and stars">
+      <created>1694991817493</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694991817493</updated>
+    </task>
+    <task id="LOCAL-00035" summary="AI Core Description for Omega">
+      <created>1694994933285</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1694994933285</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Fix Multiple Bonuses to the same industry and ai cores for those bonuses">
+      <created>1695008745383</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695008745383</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,11 +389,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Define whos the market owner" />
-    <MESSAGE value="AI Builds the Things in demi-random order" />
-    <MESSAGE value="That method is implemented poorly, trim" />
-    <MESSAGE value="keep track of the things to delete" />
-    <MESSAGE value="Don't let pop count." />
     <MESSAGE value="Better Sleep" />
     <MESSAGE value="Logs" />
     <MESSAGE value="Float to Int" />
@@ -390,7 +409,12 @@
     <MESSAGE value="1" />
     <MESSAGE value="Rebuild for 96" />
     <MESSAGE value="space elevator to not grow so high cost" />
-    <option name="LAST_COMMIT_MESSAGE" value="space elevator to not grow so high cost" />
+    <MESSAGE value="Add AI Core Effects" />
+    <MESSAGE value="Defense Forces are better" />
+    <MESSAGE value="remove unused imports and stars" />
+    <MESSAGE value="AI Core Description for Omega" />
+    <MESSAGE value="Fix Multiple Bonuses to the same industry and ai cores for those bonuses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Multiple Bonuses to the same industry and ai cores for those bonuses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,7 +439,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/colony/MarketCommander.java</url>
-          <line>265</line>
+          <line>284</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
