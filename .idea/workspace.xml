@@ -1,13 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73c3e54b-7c7c-4cc8-ba48-7b4829dbf547" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/data/strings/descriptions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphics/icons/cargo/common_lobster.png" afterDir="false" />
+    <list default="true" id="73c3e54b-7c7c-4cc8-ba48-7b4829dbf547" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/IndEvo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lw_Console.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/console/aliases.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/console/commands.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/cheats/ResearchCheat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/IndustryGrounds_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/StarSectorCheats_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/campaign/commodities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/campaign/commodities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/StarSectorIndustry.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jars/StarSectorIndustry.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/FlatFarmingExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/FlatFarmingExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarSectorIndustry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StarSectorCheats.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/commodities.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/industries.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/settings.json.optional" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strings/descriptions.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/common_lobster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/common_lobster.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/chop_shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/city_wide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/civilian_infra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/civilian_lux.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/civilian_lux_housing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/gate_defense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/gate_defense.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/hive_city.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/industrial_defence_force.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/industrial_defence_force.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/industrial_farm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/industrial_lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/industrial_tunnels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/mil_edf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/mil_sdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/mil_sdf.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/spaceele.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/suppression.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/suppression_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/StarSectorIndustry.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/mod_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/colony/MarketCommander.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/patrol/BasePatrolAssignmentAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/patrol/EDFPatrolAssignmentAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/patrol/JumpGatePatrolAssignmentAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/patrol/SDFPatrolAssignmentAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/patrol/SimplePatrolAssignmentAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/ai/patrol/StandardPatrolAssignmentAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/autowires/OnLoadDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/AquacultureExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/AuthoritarianRegime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/ChopShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/CivilianInfra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/EmergencyDefenceForce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/FlatFarmingExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/FuelProd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/IndustrialDefenseForce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/IndustrialTunnels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/JumpDefense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/LuxCivilianHousing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/LuxCivilianInfra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/PoliceState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/ScalingFarmingExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/SelfDefenceForce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/SpaceElevator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/StandAloneFarmingExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/TraceMining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/AddsMarket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/AliceBaseIndustry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/FarmingExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/HasEffectiveness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/IndustryExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/MilitaryIndustry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/PollutingIndustry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/PopulationAwareExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/SupportInfraGrowsPopulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/impl/common/SupportInfrastructure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/ConditionalFlatCommodityBonus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityBonus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/FlatCommodityDemand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/HasCommodity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/IndustryBonus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/IndustryDemand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/IndustryEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityBonus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/PopulationCommodityDemand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityBonus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/QuantityCommodityDemand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/AICoreEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/StandardAICoreBonusEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/model/aicore/StandardAICoreDemandEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/util/AliceCommon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/util/AliceIndustries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/util/Incoming.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/util/IndEvo_ids.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/util/Mods.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +133,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="protected" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/strings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Industrial.Evolution3.3.c/jars/IndEvo.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23908296" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -115,7 +202,12 @@
       <workItem from="1674603293597" duration="662000" />
       <workItem from="1694816371776" duration="3012000" />
       <workItem from="1694901374347" duration="259000" />
-      <workItem from="1694979973286" duration="22037000" />
+      <workItem from="1694979973286" duration="24185000" />
+      <workItem from="1695062238399" duration="1324000" />
+      <workItem from="1695085073309" duration="706000" />
+      <workItem from="1695157764763" duration="2082000" />
+      <workItem from="1695173671529" duration="1574000" />
+      <workItem from="1695175677475" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="A decent spot">
       <created>1631230676723</created>
@@ -369,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695008745383</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Tasty Lobsters much better than fancy lobster">
+      <created>1695010987814</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1695010987814</updated>
+    </task>
+    <task id="LOCAL-00038" summary="not full industries anymore">
+      <created>1695167840499</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1695167840499</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Better Sleep" />
-    <MESSAGE value="Logs" />
     <MESSAGE value="Float to Int" />
     <MESSAGE value="More stuff for ai to build" />
     <MESSAGE value="EDF" />
@@ -414,7 +518,9 @@
     <MESSAGE value="remove unused imports and stars" />
     <MESSAGE value="AI Core Description for Omega" />
     <MESSAGE value="Fix Multiple Bonuses to the same industry and ai cores for those bonuses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Multiple Bonuses to the same industry and ai cores for those bonuses" />
+    <MESSAGE value="Tasty Lobsters much better than fancy lobster" />
+    <MESSAGE value="not full industries anymore" />
+    <option name="LAST_COMMIT_MESSAGE" value="not full industries anymore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

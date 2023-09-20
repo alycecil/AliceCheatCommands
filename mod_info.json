@@ -1,14 +1,13 @@
 {
- "id": "alices_mod_industry",
- "name": "Industrial Grounds",
+ "id": "alices_mod_cheats",
+ "name": "Alice Cheats",
  "author": "Alice Tries",
 
  "version": "0.1",
- "description": "Creates high cost extensions of existing industries and an AI that builds them to crush you.",
+ "description": "Adds some console commands",
  "gameVersion": "0.96a-RC10",
 
  "totalConversion": "false",
- "utility": "false",
- "jars":["jars/StarSectorIndustry.jar"],
- "modPlugin": "com.github.alycecil.econ.autowires.OnLoadDetector"
+ "utility": "true",
+ "jars":["jars/StarSectorCheats.jar"]
 }

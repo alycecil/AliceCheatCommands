@@ -1,0 +1,2 @@
+command,class,tags,syntax,help
+ResearchCheat,com.github.alycecil.econ.cheats.ResearchCheat,"cheat,campaign","ResearchCheat name count","Completes a research project or lists all projects if no arg is given; can give all instead of a project name."
