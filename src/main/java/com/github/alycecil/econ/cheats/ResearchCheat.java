@@ -1,16 +1,14 @@
 package com.github.alycecil.econ.cheats;
 
-import java.util.Iterator;
-import java.util.Map;
-
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CargoAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
 import indevo.dialogue.research.ResearchProject;
 import indevo.dialogue.research.ResearchProjectTemplateRepo;
 import org.lazywizard.console.BaseCommand;
 import org.lazywizard.console.CommonStrings;
 import org.lazywizard.console.Console;
+
+import java.util.Map;
 
 public class ResearchCheat
         implements BaseCommand
