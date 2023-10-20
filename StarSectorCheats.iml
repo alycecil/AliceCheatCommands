@@ -13,5 +13,6 @@
     <orderEntry type="library" name="log4j-1.2.9" level="project" />
     <orderEntry type="library" name="lw_Console" level="project" />
     <orderEntry type="library" name="IndEvo" level="project" />
+    <orderEntry type="library" name="LazyLib-Console" level="project" />
   </component>
 </module>

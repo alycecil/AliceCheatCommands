@@ -1,3 +1,4 @@
 command,class,tags,syntax,help
 ResearchCheat,com.github.alycecil.econ.cheats.ResearchCheat,"cheat,campaign","ResearchCheat name count","Completes a research project or lists all projects if no arg is given; can give all instead of a project name."
 StablePointCheat,com.github.alycecil.econ.cheats.StablePointCheat,"cheat,campaign","StablePointCheat","Creates a stable point in the system you are in."
+PlanetCheat,com.github.alycecil.econ.cheats.PlanetCheat,"cheat,campaign","PlanetCheat with no args to show a list of planet classes, PlanetCheat <type> to create a planet of that type, PlanetCheat <type> <name> to create a planet of that type named as specified","Creates a planet in the system you are in."
