@@ -158,6 +158,18 @@ public class CheatBaseShip
         stats
             .getEnergyWeaponRangeBonus()
             .modifyFlat(id, 500f);
+
+        stats
+            .getFluxCapacity()
+            .modifyMult(id, 2f);
+
+        stats
+            .getFluxDissipation()
+            .modifyMult(id, 2f);
+
+        stats.getBeamWeaponFluxCostMult().modifyMult(id, 0.9f);
+        stats.getBeamWeaponDamageMult().modifyMult(id, 2f);
+
     }
 
     protected void shieldDefense(

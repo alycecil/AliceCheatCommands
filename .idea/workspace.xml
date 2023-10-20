@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73c3e54b-7c7c-4cc8-ba48-7b4829dbf547" name="Default Changelist" comment="not full industries anymore">
-      <change afterPath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphics/hullmods/efficiency_cheat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphics/hullmods/efficiency_cheat.xcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/cheats/CheatBaseShip.java" afterDir="false" />
+    <list default="true" id="73c3e54b-7c7c-4cc8-ba48-7b4829dbf547" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/cheats/StablePointCheat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/console/commands.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/console/commands.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jars/StarSectorCheats.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jars/StarSectorCheats.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/cheats/CheatBaseShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/econ/cheats/CheatBaseShip.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +46,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="protected" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StarSectorSupercarrier" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23908296" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -61,12 +61,10 @@
       <recent name="com.github.alycecil.econ" />
       <recent name="com.github.alycecil.econ.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\AliceCheatCommands" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\AliceCheatCommands\data" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\StarSectorIndustry\data\strings" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\StarSectorIndustry\graphics\icons\cargo" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\data\config" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.alycecil.econ.model" />
+      <recent name="com.github.alycecil.econ.util" />
+      <recent name="com.github.alycecil.econ.ai.colony" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="AliceCommon" />
@@ -78,10 +76,12 @@
       <recent name="com.github.alycecil.econ.ai.patrol" />
       <recent name="com.github.alycecil.econ.impl" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.github.alycecil.econ.model" />
-      <recent name="com.github.alycecil.econ.util" />
-      <recent name="com.github.alycecil.econ.ai.colony" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\AliceCheatCommands" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\AliceCheatCommands\data" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\StarSectorIndustry\data\strings" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\StarSectorIndustry\graphics\icons\cargo" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\StarSectorIndustry\data\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,7 +123,9 @@
       <workItem from="1695175677475" duration="2184000" />
       <workItem from="1695251701965" duration="1194000" />
       <workItem from="1695327379208" duration="809000" />
-      <workItem from="1695338520085" duration="4283000" />
+      <workItem from="1695338520085" duration="5425000" />
+      <workItem from="1696616267012" duration="725000" />
+      <workItem from="1697764223835" duration="3730000" />
     </task>
     <task id="LOCAL-00001" summary="A decent spot">
       <created>1631230676723</created>
@@ -398,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695176193393</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="more cheats">
+      <created>1695346748391</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1695346748391</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More stuff for ai to build" />
     <MESSAGE value="EDF" />
     <MESSAGE value="Time for bed, making stupid mistakes." />
     <MESSAGE value="Add AI for IndEvo as well" />
@@ -443,7 +451,8 @@
     <MESSAGE value="Tasty Lobsters much better than fancy lobster" />
     <MESSAGE value="not full industries anymore" />
     <MESSAGE value="unused imprts" />
-    <option name="LAST_COMMIT_MESSAGE" value="unused imprts" />
+    <MESSAGE value="more cheats" />
+    <option name="LAST_COMMIT_MESSAGE" value="more cheats" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
